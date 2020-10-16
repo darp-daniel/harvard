@@ -1,8 +1,5 @@
-n = int(input("Number: "))
-
-if n > 0:
-    print("This number is positive")
-elif n < 0:
-    print("This number is negative")
-else:
-    print("This number is zero")
+def square(x):
+    return x * x
+    
+for i in range(10):
+    print(f"The square of {i} is {square(i)}")
